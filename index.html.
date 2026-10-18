@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GoalZone Media | Every Moment. Every Story.</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#101010;color:#f5f5f5;font-family:Arial,sans-serif}
+header,section,footer{padding:28px 8%}
+header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #333}
+.logo{font-weight:900;letter-spacing:2px}.logo span,h1 span{color:#ed303b}
+nav a{color:#eee;text-decoration:none;margin-left:18px;font-size:13px}
+.hero{padding-top:100px;padding-bottom:90px;background:linear-gradient(120deg,#101010,#242020)}
+.tag{color:#ed303b;letter-spacing:3px;font-size:11px;font-weight:bold}
+h1{font-size:clamp(48px,9vw,100px);line-height:.95;margin:25px 0}
+p{color:#bbb;line-height:1.8;max-width:650px}
+.btn{display:inline-block;background:#ed303b;color:white;padding:15px 20px;text-decoration:none;font-weight:bold;margin-top:15px}
+h2{font-size:34px;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tile{min-height:180px;background:linear-gradient(135deg,#292929,#171717);border:1px solid #444;padding:20px;display:flex;align-items:end;color:#ddd}
+.note{font-size:12px;color:#888}
+footer{border-top:1px solid #333;color:#888;font-size:12px}
+@media(max-width:650px){header{flex-wrap:wrap;gap:20px}nav a{margin:0 12px 0 0}.grid{grid-template-columns:1fr}.hero{padding-top:65px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">GOALZONE <span>MEDIA</span></div>
+  <nav><a href="#portfolio">Portfolio</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+<section class="hero">
+  <div class="tag">DETROIT, MICHIGAN · SPORTS PHOTOGRAPHY</div>
+  <h1>EVERY MOMENT.<br>EVERY <span>STORY.</span></h1>
+  <p>Capturing the energy of football, the emotion of the players, and the stories beyond the final whistle.</p>
+  <a class="btn" href="#portfolio">EXPLORE THE PORTFOLIO ↗</a>
+</section>
+<section id="portfolio">
+  <div class="tag">01 / SELECTED WORK</div>
+  <h2>The Portfolio</h2>
+  <p>Your original match photographs will appear here as your portfolio grows.</p>
+  <div class="grid">
+    <div class="tile">01 / Match Day</div>
+    <div class="tile">02 / The Fans</div>
+    <div class="tile">03 / Beyond the Game</div>
+  </div>
+  <p class="note">These are design placeholders, not actual match photographs.</p>
+</section>
+<section id="about">
+  <div class="tag">02 / THE VISION</div>
+  <h2>Sport is more than a score.</h2>
+  <p>GoalZone Media is an emerging sports photography and visual storytelling project in the Detroit area, focused on football, people, and local sports culture.</p>
+  <p><strong>Notre vision :</strong> raconter le sport, les personnes et la culture derrière chaque match.</p>
+</section>
+<section id="contact">
+  <div class="tag">03 / CONTACT</div>
+  <h2>Let's tell the story.</h2>
+  <p>For match coverage, collaborations, and photography enquiries, contact GoalZone Media.</p>
+  <p>Add your real email address here before publishing.</p>
+</section>
+<footer>© 2026 GOALZONE MEDIA · EVERY MOMENT. EVERY STORY.</footer>
+</body>
+</html>
